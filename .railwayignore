@@ -1,0 +1,6 @@
+# Exclude cached build artifacts so Railway performs a clean rebuild
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
