@@ -1,7 +1,5 @@
-# cache-bust: force clean rebuild for Python 3.12 venv
 [build]
-python = "3.12"
-nixpacks.pkgs = ["libopus", "libffi"]
+builder = "dockerfile"
 
-[build.nixpacksPlan.phases.setup]
-nixPkgs = ["python312", "python312Packages.pip"]
+[deploy]
+startCommand = "python main.py"
