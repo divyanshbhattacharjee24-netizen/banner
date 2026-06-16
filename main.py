@@ -1,3 +1,4 @@
+# build: python3.12 clean rebuild
 import discord
 from discord.ext import commands
 from discord import app_commands
